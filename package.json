@@ -1,0 +1,36 @@
+{
+  "name": "notebook",
+  "version": "1.0.0",
+  "description": "notebook-app",
+  "main": "app",
+  "scripts": {
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "start:watch": "concurrently \"npm run client\" \"npm run server:watch\"",
+    "client": "cd client && npm start",
+    "server": "cd backend && node server.js",
+    "server:watch": "cd backend && nodemon server.js",
+    "install:server": "npm install",
+    "install:client": "cd client && npm install"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "node",
+    "mongodb"
+  ],
+  "author": "Nooky",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.3"
+  }
+}

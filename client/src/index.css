@@ -1,0 +1,32 @@
+@import "../node_modules/materialize-css/dist/css/materialize.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input{
+  border-bottom: 1px solid #D5D5D5!important;
+  box-shadow: 0 1px 0 0 #D5D5D5!important;
+}
+
+input + label{
+  color: #D5D5D5!important;
+}
+input:focus + label {
+  color: #fff!important;
+}
+input:focus{
+  border-bottom: 1px solid #fff!important;
+  box-shadow: 0 1px 0 0 #fff!important;
+}

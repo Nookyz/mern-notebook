@@ -1,0 +1,17 @@
+
+.input{
+  background-color: #F1F2F2!important;
+  border-radius: 45px!important;
+  border: 2px solid #808285!important;
+  padding-left: 2rem!important;
+  padding-right: 2rem!important;
+}
+.input:focus{
+  border-color: #fff!important;
+  box-shadow: none!important;
+  padding-left: 2rem!important;
+  padding-right: 2rem!important;
+  border: 2px solid #1e88e5!important;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5)!important;
+}
+
